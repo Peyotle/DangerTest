@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: "Run Danger"
     steps:
+      - name: GitHub Action for Danger-Swift + SwiftLint
+      - uses: 417-72KI/danger-swiftlint@v1.0.1
       - uses: actions/checkout@v2
       - name: Danger
         uses: danger/swift@3.0.0
