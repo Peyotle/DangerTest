@@ -1,0 +1,3 @@
+analyzer_rules:
+  - unused_import
+  - sorted_imports
