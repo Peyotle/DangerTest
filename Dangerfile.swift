@@ -10,4 +10,4 @@ if danger.github.pullRequest.body == nil || danger.github.pullRequest.body!.isEm
     warn("Please provide a summary in the Pull Request description")
 }
 
-SwiftLint.lint(.modifiedAndCreatedFiles(directory: nil), inline: true, configFile: nil, strict: false, quiet: true, swiftlintPath: nil)
+SwiftLint.lint(.modifiedAndCreatedFiles(directory: nil), inline: true, configFile: ".swiftlint.yml", strict: false, quiet: true, swiftlintPath: nil)
